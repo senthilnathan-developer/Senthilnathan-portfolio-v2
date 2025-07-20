@@ -487,16 +487,17 @@ footer h1{
   .navbar {
     flex-direction: column;
     align-items: center;
+    padding-left: 20px;
   }
 
   .my-name h6 {
     margin: 0;
     margin-bottom: 10px;
-    text-align: center;
   }
 
   .nav-links {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -504,120 +505,113 @@ footer h1{
   .home-section {
     flex-direction: column;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding: 120px 20px 60px;
+  }
+
+  .home-content {
+    margin: 20px 0;
   }
 
   .home-icons {
     flex-direction: row;
     justify-content: center;
-    margin: 50px 0;
-  }
-
-  .home-content {
-    text-align: center;
-    margin: 0;
+    margin: 20px 0;
   }
 
   .home-content p {
-    width: auto;
-    margin: 20px;
+    width: 100%;
   }
 
   .home-img {
-    margin: 40px 0 0 0;
-    width: 300px;
+    margin: 20px 0;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .about-container {
+    padding: 60px 20px;
   }
 
   .about-content {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .about-img {
     margin: 20px 0;
-    width: 300px;
   }
 
   .about-details {
-    margin: 30px 20px 0 20px;
-    width: auto;
-    text-align: center;
+    margin: 30px 0;
+    width: 100%;
+  }
+
+  .about-details p {
+    width: 100%;
+    padding: 0 10px;
   }
 
   .education-content {
     flex-direction: column;
-    margin: 50px 0 0 0;
+    margin: 40px auto;
     align-items: center;
   }
 
   .first-section {
-    border-right: none;
-    border-bottom: 2px solid #333;
-    margin-bottom: 30px;
-    padding: 30px;
+    border: none;
+    padding: 0;
+    margin: 0 0 30px;
   }
 
   .second-section {
-    padding: 30px;
+    padding: 0;
+  }
+
+  .skill-container {
+    padding: 60px 20px;
+  }
+
+  .skill-head {
+    padding-left: 0;
+    align-items: center;
   }
 
   .skill-content {
-    margin: 50px auto;
-    width: 90%;
-    height: auto;
-  }
-
-  .skill {
-    margin-left: 20px;
+    width: 100%;
+    margin: 30px auto;
   }
 
   .project-content {
     flex-direction: column;
     align-items: center;
-    margin: 50px 0;
+    margin: 30px auto;
   }
 
   .project {
-    margin: 20px 0;
+    margin: 20px;
   }
 
   .contact-details {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 
   .contact-email-section {
-    margin: 0 0 20px 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 10px;
   }
 }
 
-
-/*---------------------------------------------- */
 @media (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-  }
-
-  .my-name h6 {
-    font-size: 18px;
-    margin: 0 0 10px 0;
-  }
-
-  .home-icons {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .nav-links a {
-    font-size: 16px;
-    margin: 5px 10px;
-  }
-
   .home-content h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .home-content h5 {
@@ -625,26 +619,11 @@ footer h1{
   }
 
   .home-content h5 span {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .home-content p {
     font-size: 16px;
-    margin: 15px;
-  }
-
-  .home-content button {
-    width: 140px;
-    height: 50px;
-    font-size: 16px;
-  }
-
-  .home-img {
-    width: 250px;
-  }
-
-  .about-img {
-    width: 250px;
   }
 
   .about-head h1,
@@ -657,29 +636,15 @@ footer h1{
 
   .about-details,
   .form-container {
-    padding: 0 15px;
-  }
-
-  .skill-content {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .project img {
-    width: 90%;
-    margin-left: 5%;
-  }
-
-  .project button {
-    font-size: 16px;
-    margin-left: 25%;
-  }
-
-  .form-group {
     padding: 10px;
   }
 
   .form-btn {
     font-size: 14px;
+    padding: 12px;
+  }
+
+  footer h1 {
+    font-size: 20px;
   }
 }
