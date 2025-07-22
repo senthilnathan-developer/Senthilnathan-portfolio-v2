@@ -64,11 +64,11 @@ function App() {
               My short-term goal is to work on real-world projects to gain hands-on experience, and my long-term goal is to become a skilled full-stack developer.
             </p>
 
-<a href="/Senthilnathan-resume.pdf" download>
-  <button>
-    Download CV <span><GrDocumentPdf /></span>
-  </button>
-</a>
+            <a href="/Senthilnathan-resume.pdf" download>
+              <button>
+                Download CV <span><GrDocumentPdf /></span>
+              </button>
+            </a>
 
           </section>
         </section>
@@ -107,8 +107,8 @@ function App() {
 
         <section className='skill-content'>
           {[
-            "HTML", "CSS", "JavaScript", "Bootstrap", "React",
-            "Firebase", "Canva", "Figma", "Cloudinary", "Designs Principles"
+            "HTML5", "CSS3", "SASS", "JavaScript", "Bootstrap", "React.js",
+            "Firebase", "Canva", "Figma"
           ].map((skill, index) => (
             <section className='skill' key={index}>
               <span><HiBadgeCheck /></span> <p>{skill}</p>
@@ -117,25 +117,33 @@ function App() {
         </section>
       </section>
 
-      {/* Projects Section */}
-      <section className='project-container' id='Project'>
-        <section className='project-head'>
-          <h1>Projects</h1>
-          <p>My Works</p>
-        </section>
+      <section className="projects" id="Project">
+        <div className="projects-header">
+          <h1>My Projects</h1>
+          <p>Some things I've built recently</p>
+        </div>
 
-        <section className='project-content'>
-          <section className='project'>
-            <img src={aerohub} alt="aero hub" />
-            <button>View</button>
-          </section>
+        <div className="projects-grid">
+          <div className="project-card">
+            <img src={aerohub} alt="Aero Hub" />
+            <div className="project-info">
+              <h3>AeroHub</h3>
+              <p>Flight ticket booking website with Firebase integration.</p>
+              <a href="https://aero-hub-booking-project.netlify.app/home" target="_blank" className="view-btn">View Project</a>
+            </div>
+          </div>
 
-          <section className='project'>
-            <img src={texttoaudio} alt="text to audio" />
-            <button>View</button>
-          </section>
-        </section>
+          <div className="project-card">
+            <img src={texttoaudio} alt="Text to Audio" />
+            <div className="project-info">
+              <h3>Text to Audio</h3>
+              <p>Convert written text to speech using JavaScript Web APIs.</p>
+              <a href="https://senthilnathan-es02.github.io/Text-To-Audio_converter/" target="_blank" className="view-btn">View Project</a>
+            </div>
+          </div>
+        </div>
       </section>
+
 
       {/* Contact Section */}
       <section className='contact-container' id='Contact'>
