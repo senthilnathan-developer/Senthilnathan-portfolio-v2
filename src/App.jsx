@@ -129,7 +129,7 @@ function App() {
             <div className="project-info">
               <h3>AeroHub</h3>
               <p>Flight ticket booking website with Firebase integration.</p>
-              <a href="https://aero-hub-booking-project.netlify.app/home" target="_blank" className="view-btn">View Project</a>
+              <a href="https://aero-hub-booking-project.netlify.app/" target="_blank" className="view-btn">View Project</a>
             </div>
           </div>
 
