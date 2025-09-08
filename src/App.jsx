@@ -1,5 +1,5 @@
-import './App.css';
-import img from './assets/my-img.jpg';
+import './styles/App.css';
+import img from './assets/senthilnathan-img.jpg';
 import { FaTelegramPlane, FaGraduationCap } from "react-icons/fa";
 import { GrDocumentPdf } from "react-icons/gr";
 import { SlCalender } from "react-icons/sl";
@@ -57,12 +57,8 @@ function App() {
             <img className='about-img' src={img} alt="about-img" />
           </section>
           <section className='about-details'>
-            <p>Hello everyone, my name is Senthilnathan, and I’m from Theni. I come from a family of weavers. Currently, I’m a student at the Freshworks STS Software Academy, where I’m building a strong foundation in frontend technologies.
+<p>Hello, I’m Senthilnathan from Theni, proud of my roots in a family of weavers. I’m an alumnus of Freshworks STS Software Academy and currently a Frontend Intern at IITM CDOT Samgnya Technologies Foundation, where I build responsive and user-friendly interfaces. I’m focused on gaining real-world experience now and becoming a skilled full-stack developer in the future.</p>
 
-              As part of my learning, I developed a flight ticket booking platform, which helped me improve my UI/UX skills and understand how to design the flow of a web page.
-
-              My short-term goal is to work on real-world projects to gain hands-on experience, and my long-term goal is to become a skilled full-stack developer.
-            </p>
 
             <a href="/Senthilnathan-resume.pdf" download>
               <button>
@@ -75,28 +71,39 @@ function App() {
       </section>
 
       {/* Education Section */}
-      <section className='education-container' id='Education'>
-        <section className='education-head'>
-          <h1>Qualification</h1>
-          <p>My personal journey</p>
-        </section>
+<section className="education-container" id="Education">
+  <div className="education-head">
+    <h1>Qualification</h1>
+    <p>My personal journey</p>
+  </div>
 
-        <section className='education-content'>
-          <section className='first-section'>
-            <h1><span><FaGraduationCap /></span> Education</h1>
-            <h6>Student</h6>
-            <p>GHSS</p>
-            <p><span><SlCalender /></span> 2010 - 2024</p>
-          </section>
+  <div className="education-grid">
+    {/* Education */}
+    <div className="edu-card">
+      <h2><FaGraduationCap /> Education</h2>
+      <h6>Student</h6>
+      <p>GHSS</p>
+      <span className="edu-date"><SlCalender /> 2010 - 2024</span>
+    </div>
 
-          <section className='second-section'>
-            <h1><span><FaBagShopping /></span> Experience</h1>
-            <h6>Web Developer</h6>
-            <p>Freshworks STS Software Academy</p>
-            <p><span><SlCalender /></span> 2024 - 2025</p>
-          </section>
-        </section>
-      </section>
+    {/* Experience 1 */}
+    <div className="edu-card">
+      <h2><FaBagShopping /> Experience</h2>
+      <h6>Web Developer</h6>
+      <p>Freshworks STS Software Academy</p>
+      <span className="edu-date"><SlCalender /> 2024 - 2025</span>
+    </div>
+
+    {/* Experience 2 */}
+    <div className="edu-card">
+      <h2><FaBagShopping /> Experience</h2>
+      <h6>Frontend Intern</h6>
+      <p>IITM CDOT Samgnya Technologies Foundation</p>
+      <span className="edu-date"><SlCalender /> 2025 - Present</span>
+    </div>
+  </div>
+</section>
+
 
       {/* Skill Section */}
       <section className='skill-container' id='Skill'>

@@ -112,10 +112,10 @@ body {
 }
 
 .home-img {
-  width: 400px;
+  width: 350px;
   border: 10px solid gray;
-  border-radius: 500px;
-  margin: 25px 0px 0px 80px;
+  border-radius: 900px;
+  margin: 0px 0px 0px 120px;
 }
 
 .home-img:hover {
@@ -124,7 +124,7 @@ body {
 }
 
 .about-container {
-  padding: 135px 0px 70px 90px;
+  padding: 100px 0px 70px 90px;
 }
 
 .about-content {
@@ -132,10 +132,10 @@ body {
 }
 
 .about-img {
-  width: 420px;
+  width: 350px;
   border: 10px solid black;
   border-radius: 500px;
-  margin: 0px 0px 0px 90px;
+  margin: 30px 0px 0px 90px;
   padding: 1%;
 
 }
@@ -158,9 +158,9 @@ body {
 }
 
 .about-details {
-  width: 400px;
+  width: 500px;
   font-size: 20px;
-  margin: 70px 0px 0px 150px;
+  margin: 120px 0px 0px 150px;
   color: gray;
   text-align: justify;
 }
@@ -187,7 +187,7 @@ body {
 }
 
 .education-container {
-  padding: 150px 0px 70px 20px;
+  padding: 190px 0px 70px 20px;
 }
 
 
@@ -209,36 +209,69 @@ body {
   font-size: 17px;
   margin-top: 5px;
 }
+.education-container {
+  padding: 130px 20px;
+  text-align: center;
+}
 
-.education-content {
+.education-head h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.education-head p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.education-grid {
+  display: grid;
+  margin-top: 90px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.edu-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-8px);
+}
+
+.edu-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
   display: flex;
-  margin: 100px 0px 40px 320px;
-}
-
-.first-section {
-  margin-right: 80px;
-  border-right: 3px solid #333333;
-  padding: 8%;
-}
-
-
-.first-section h1,
-.second-section h1 {
-  font-size: 30px;
-}
-
-
-.first-section h6,
-.second-section h6 {
-  font-size: 20px;
-  margin-top: 20px;
-  color: #333333;
-}
-
-.first-section p,
-.second-section p {
+  align-items: center;
+  gap: 8px;
   color: gray;
-  margin-top: 10px;
+}
+
+.edu-card h6 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.edu-card p {
+  margin: 3px 0;
+}
+
+.edu-date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
 }
 
 
