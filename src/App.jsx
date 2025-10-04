@@ -7,7 +7,6 @@ import { FaBagShopping } from "react-icons/fa6";
 import { HiBadgeCheck } from "react-icons/hi";
 import { IoIosMailUnread } from "react-icons/io";
 import aerohub from "./assets/app-logo.jpg";
-import texttoaudio from "./assets/text-to-audio.png";
 import Navbar from './components/Navbar.jsx';
 
 function App() {
@@ -33,8 +32,8 @@ function App() {
         <section className='home-content'>
           <h1>Senthilnathan,</h1>
           <h5><span>✋</span></h5>
-          <h5>⏤⏤⏤ Web Developer</h5>
-          <p>I'm a Web developer from Theni, and I'm very passionate and dedicated to my work.</p>
+          <h5>⏤⏤⏤ Software Developer</h5>
+          <p>I'm a Software developer from Theni, and I'm very passionate and dedicated to my work.</p>
           <button onClick={scrollToContact}>
             Say Hello <span className='btn-span'><FaTelegramPlane /></span>
           </button>
@@ -57,7 +56,7 @@ function App() {
             <img className='about-img' src={img} alt="about-img" />
           </section>
           <section className='about-details'>
-<p>Hello, I’m Senthilnathan from Theni, proud of my roots in a family of weavers. I’m an alumnus of Freshworks STS Software Academy and currently a Frontend Intern at IITM CDOT Samgnya Technologies Foundation, where I build responsive and user-friendly interfaces. I’m focused on gaining real-world experience now and becoming a skilled full-stack developer in the future.</p>
+<p>Hello, I’m Senthilnathan from Theni, proud of my roots in a family of weavers. I’m an alumnus of Freshworks STS Software Academy and currently a Software Developer at  "IITM CDOT Samgnya Technologies Foundation", where I build responsive and user-friendly interfaces. I’m focused on gaining real-world experience now and becoming a skilled full-stack developer in the future.</p>
 
 
             <a href="/Senthilnathan-resume.pdf" download>
@@ -97,7 +96,7 @@ function App() {
     {/* Experience 2 */}
     <div className="edu-card">
       <h2><FaBagShopping /> Experience</h2>
-      <h6>Frontend Intern</h6>
+      <h6>Software Developer</h6>
       <p>IITM CDOT Samgnya Technologies Foundation</p>
       <span className="edu-date"><SlCalender /> 2025 - Present</span>
     </div>
@@ -141,11 +140,11 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src={texttoaudio} alt="Text to Audio" />
+            <img src="https://saree-kadai.netlify.app/assets/sarry-kadai-logo-removebg-preview-D48Bdu79.png" alt="Text to Audio" />
             <div className="project-info">
-              <h3>Text to Audio</h3>
-              <p>Convert written text to speech using JavaScript Web APIs.</p>
-              <a href="https://senthilnathan-es02.github.io/Text-To-Audio_converter/" target="_blank" className="view-btn">View Project</a>
+              <h3>E-commerce platform</h3>
+              <p>This is the authentic website for buying sarees online.</p>
+              <a href="https://saree-kadai.netlify.app/" target="_blank" className="view-btn">View Project</a>
             </div>
           </div>
         </div>
