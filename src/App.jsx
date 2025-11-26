@@ -88,7 +88,7 @@ function App() {
     {/* Experience 1 */}
     <div className="edu-card">
       <h2><FaBagShopping /> Experience</h2>
-      <h6>Web Developer</h6>
+      <h6>Web Developer Learning</h6>
       <p>Freshworks STS Software Academy</p>
       <span className="edu-date"><SlCalender /> 2024 - 2025</span>
     </div>
@@ -140,11 +140,11 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="https://saree-kadai.netlify.app/assets/sarry-kadai-logo-removebg-preview-D48Bdu79.png" alt="Text to Audio" />
+            <img src="https://nesavaali-thozhil.netlify.app/assets/Nesavaali%20Thozhil%20logo-D0jAu4PJ.png" alt="img" />
             <div className="project-info">
               <h3>E-commerce platform</h3>
               <p>This is the authentic website for buying sarees online.</p>
-              <a href="https://saree-kadai.netlify.app/" target="_blank" className="view-btn">View Project</a>
+              <a href="https://nesavaali-thozhil.netlify.app/" target="_blank" className="view-btn">View Project</a>
             </div>
           </div>
         </div>
