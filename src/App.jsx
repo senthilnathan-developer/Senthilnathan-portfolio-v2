@@ -181,8 +181,7 @@ function App() {
             "React.js",
             "Firebase",
             "Canva",
-            "Figma",
-            "Zoho Apps",
+            "Figma"
           ].map((skill, index) => (
             <section className="skill" key={index}>
               <span>
