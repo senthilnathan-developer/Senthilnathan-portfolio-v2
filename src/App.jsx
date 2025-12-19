@@ -149,7 +149,7 @@ function App() {
 
           <div className="edu-card">
             <h2>
-              <FaBagShopping />
+             <FaGraduationCap />
               Degree Qualification
             </h2>
             <h6>
@@ -222,7 +222,7 @@ function App() {
               alt="Nesavaali Thozhil"
             />
             <div className="project-info">
-              <h3>E-commerce platform</h3>
+              <h3>Nesavaalithozhil</h3>
               <p>This is the authentic website for buying sarees online.</p>
               <a
                 href="https://nesavaalithozhil.netlify.app/"
