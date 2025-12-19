@@ -2,13 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
   background-color: #fafafa;
 }
-
 
 .navbar {
   display: flex;
@@ -22,11 +21,10 @@ body {
 
 .my-name h6 {
   font-size: 23px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-right: 350px;
   margin-left: 100px;
   font-weight: bold;
-
 }
 
 .nav-links a {
@@ -62,7 +60,6 @@ body {
 
 .home-content {
   margin: 50px 0px 0px 50px;
-
 }
 
 .home-content h1 {
@@ -87,7 +84,6 @@ body {
   width: 400px;
   margin-bottom: 35px;
 }
-
 
 .home-content button {
   width: 160px;
@@ -128,7 +124,6 @@ body {
   border: 10px solid black;
 }
 
-
 /* Profile animation */
 @keyframes profile__animate {
   0% {
@@ -149,8 +144,6 @@ body {
 .about-content {
   display: flex;
 }
-
-
 
 .about-img {
   box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
@@ -183,7 +176,6 @@ body {
 .about-head p {
   color: #333333;
   font-size: 20px;
-
 }
 
 .about-details {
@@ -219,15 +211,11 @@ body {
   padding: 190px 0px 70px 20px;
 }
 
-
 .education-head {
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
-
-
 
 .education-head h1 {
   font-size: 45px;
@@ -266,13 +254,9 @@ body {
   background: #fff;
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: left;
   transition: transform 0.3s ease;
-}
-
-.edu-card:hover {
-  transform: translateY(-8px);
 }
 
 .edu-card h2 {
@@ -303,19 +287,15 @@ body {
   margin-top: 8px;
 }
 
-
 .skill-container {
   padding: 100px 0px 0px 120px;
 }
-
 
 .skill-head {
   display: flex;
   flex-direction: column;
   padding-left: 600px;
 }
-
-
 
 .skill-head h1 {
   font-size: 45px;
@@ -347,11 +327,6 @@ body {
   margin: 35px 0px 0px 60px;
 }
 
-.skill:hover {
-  text-decoration: underline;
-  cursor: default;
-}
-
 .skill span {
   font-size: 20px;
   margin-right: 15px;
@@ -361,7 +336,6 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
 
 .projects {
   padding: 120px 0px 40px 0px;
@@ -400,10 +374,6 @@ body {
   margin-left: 3%;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
 .project-card img {
   width: 50%;
   height: 200px;
@@ -436,14 +406,11 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-
 }
 
 .view-btn:hover {
   background: gray;
 }
-
-
 
 .contact-container {
   padding: 90px 20px;
@@ -474,7 +441,7 @@ body {
 }
 
 .contact-email-section {
-  background-color: white;
+  background-color: #fafafa;
   border: 1px solid black;
   border-radius: 10px;
   width: 200px;
@@ -487,7 +454,6 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 8px;
-
 }
 
 .form-container {
@@ -496,7 +462,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 .form-title {
@@ -515,7 +481,7 @@ body {
   position: absolute;
   top: -12px;
   left: 15px;
-  background-color: #fff;
+  background-color: #fafafa;
   padding: 0 5px;
   color: #777;
   font-size: 14px;
@@ -545,14 +511,11 @@ body {
   align-items: center;
   gap: 8px;
   font-weight: bold;
-
 }
 
 .form-btn:hover {
   background-color: #333;
 }
-
-
 
 footer {
   text-align: center;
@@ -566,7 +529,6 @@ footer h1 {
   margin: 5px;
   font-size: 17px;
 }
-
 
 /* --------------------------------------------------- */
 @media (max-width: 991px) {
@@ -696,8 +658,6 @@ footer h1 {
 }
 
 @media (max-width: 480px) {
-
-
   .nav-links a {
     font-size: 20px;
     margin-bottom: 15px;
@@ -752,7 +712,6 @@ footer h1 {
     padding: 10px;
   }
 
-
   .education-container {
     padding-top: 200px;
   }
@@ -772,7 +731,6 @@ footer h1 {
     font-size: 0.95rem;
   }
 
-
   .projects {
     padding-top: 170px;
   }
@@ -781,7 +739,6 @@ footer h1 {
     flex-direction: column;
     margin-left: 0%;
   }
-
 
   .project-card {
     width: 400px;

@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <section className='my-name'>
-                <h6>Spritfull_Senthilnathan</h6>
+                <h6>Senthilnathan</h6>
             </section>
             <section className='nav-links'>
                 <a href="/">Home</a>
