@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles/App.scss";
 
 import img from "./assets/senthilnathan-img.jpg";
 import aerohub from "./assets/app-logo.jpg";
@@ -85,10 +85,15 @@ function App() {
 
           <section className="about-details">
             <p>
-              Hello, I’m Senthilnathan from Theni, proud of my roots in a family
-              of weavers. I’m an alumnus of Freshworks STS Software Academy and
-              currently a Software Developer at IITM CDOT Samgnya Technologies
-              Foundation, where I build responsive and user-friendly interfaces.
+              Hello, I’m Senthilnathan from Theni, proudly rooted in a family of
+              traditional weavers. I am an alumnus of the Freshworks STS
+              Software Academy and currently working as a Software Developer at
+              IITM CDOT Samgnya Technologies Foundation. I focus on building
+              clean, responsive, and user-centric interfaces, and I bring strong
+              hands-on experience with Zoho applications, particularly Zoho
+              Creator. My work includes designing forms, automating workflows,
+              implementing scripts, and delivering technical customizations that
+              streamline and enhance business processes.
             </p>
 
             <a href="/Senthilnathan-resume.pdf" download>
@@ -149,7 +154,7 @@ function App() {
 
           <div className="edu-card">
             <h2>
-             <FaGraduationCap />
+              <FaGraduationCap />
               Degree Qualification
             </h2>
             <h6>
@@ -167,7 +172,7 @@ function App() {
       {/* ================= SKILLS ================= */}
       <section className="skill-container" id="Skill">
         <section className="skill-head">
-          <h1>Skill</h1>
+          <h1>Skills</h1>
           <p>My Technical level</p>
         </section>
 
@@ -181,7 +186,8 @@ function App() {
             "React.js",
             "Firebase",
             "Canva",
-            "Figma"
+            "Figma",
+            "Zoho Applications",
           ].map((skill, index) => (
             <section className="skill" key={index}>
               <span>
@@ -204,7 +210,7 @@ function App() {
           <div className="project-card">
             <img src={aerohub} alt="AeroHub" />
             <div className="project-info">
-              <h3>AeroHub</h3>
+              <h3>Aero Hub</h3>
               <p>Flight ticket booking website with Firebase integration.</p>
               <a
                 href="https://aero-hub-v2.netlify.app/"
@@ -222,7 +228,7 @@ function App() {
               alt="Nesavaali Thozhil"
             />
             <div className="project-info">
-              <h3>Nesavaalithozhil</h3>
+              <h3>Nesavaali thozhil</h3>
               <p>This is the authentic website for buying sarees online.</p>
               <a
                 href="https://nesavaalithozhil.netlify.app/"
